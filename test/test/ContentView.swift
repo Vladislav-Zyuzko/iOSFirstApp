@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  FirstSteps
+//  test
 //
 //  Created by Effective on 13.11.2023.
 //
@@ -9,12 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .center) {
+        VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, Swift!")
-                .font(AppTheme.Fonts.poppins_bold_20)
+            Text("Hello, world!")
         }
+        .padding()
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
 }
