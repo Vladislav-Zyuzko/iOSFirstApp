@@ -15,6 +15,8 @@
 		1ACE8EDD2B033E0B00CB705A /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE8EDC2B033E0B00CB705A /* Poppins-Regular.ttf */; };
 		1ACE8EDF2B03462F00CB705A /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE8EDE2B03462F00CB705A /* Poppins-Bold.ttf */; };
 		1ACE8EE12B0348DF00CB705A /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE8EE02B0348DF00CB705A /* Poppins-SemiBold.ttf */; };
+		1ACE8EE32B03544600CB705A /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EE22B03544600CB705A /* Localizable.strings */; };
+		1ACE8EE52B03557500CB705A /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EE42B03557500CB705A /* Localizable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		1ACE8EDC2B033E0B00CB705A /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		1ACE8EDE2B03462F00CB705A /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		1ACE8EE02B0348DF00CB705A /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../Poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		1ACE8EE22B03544600CB705A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		1ACE8EE42B03557500CB705A /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				1ACE8E602B0214A400CB705A /* ContentView.swift */,
 				1ACE8E622B0214A600CB705A /* Assets.xcassets */,
 				1ACE8EBE2B0224AA00CB705A /* AppThreme.swift */,
+				1ACE8EE22B03544600CB705A /* Localizable.strings */,
+				1ACE8EE42B03557500CB705A /* Localizable.swift */,
 			);
 			path = FirstSteps;
 			sourceTree = "<group>";
@@ -249,6 +255,8 @@
 			files = (
 				1ACE8E612B0214A400CB705A /* ContentView.swift in Sources */,
 				1ACE8E5F2B0214A400CB705A /* FirstStepsApp.swift in Sources */,
+				1ACE8EE52B03557500CB705A /* Localizable.swift in Sources */,
+				1ACE8EE32B03544600CB705A /* Localizable.strings in Sources */,
 				1ACE8EBF2B0224AA00CB705A /* AppThreme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
