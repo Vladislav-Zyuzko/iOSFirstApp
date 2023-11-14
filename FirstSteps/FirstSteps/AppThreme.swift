@@ -4,6 +4,7 @@ struct AppTheme {
     
     struct BgColors {
         static let primaryWhite = Color.white
+        static let dimWhite = Color.white.opacity(0.15)
         static let lightWhite98 = Color(red: 0.98, green: 0.98, blue: 0.98)
         static let lightWhite96 = Color(red: 0.96, green: 0.96, blue: 0.96)
         static let primaryBlue = Color(red: 0.28, green: 0.58, blue: 1)

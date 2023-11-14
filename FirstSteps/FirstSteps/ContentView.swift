@@ -9,12 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .center) {
-            Image("smile")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, Swift!")
-                .font(AppTheme.Fonts.poppins_bold_20)
+        ScrollView {
+            VStack{
+                ProfileInfo()
+            }
+            .padding(.horizontal, 24)
         }
     }
 }
