@@ -19,6 +19,7 @@
 		1ACE8EE52B03557500CB705A /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EE42B03557500CB705A /* Localizable.swift */; };
 		1ACE8EE82B0369AC00CB705A /* MainDoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EE72B0369AC00CB705A /* MainDoctorCard.swift */; };
 		1ACE8EEA2B049E0B00CB705A /* WelcomeBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EE92B049E0B00CB705A /* WelcomeBlock.swift */; };
+		1ACE8EEC2B04A27500CB705A /* SearchLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EEB2B04A27500CB705A /* SearchLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		1ACE8EE42B03557500CB705A /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 		1ACE8EE72B0369AC00CB705A /* MainDoctorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDoctorCard.swift; sourceTree = "<group>"; };
 		1ACE8EE92B049E0B00CB705A /* WelcomeBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBlock.swift; sourceTree = "<group>"; };
+		1ACE8EEB2B04A27500CB705A /* SearchLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			children = (
 				1ACE8EE72B0369AC00CB705A /* MainDoctorCard.swift */,
 				1ACE8EE92B049E0B00CB705A /* WelcomeBlock.swift */,
+				1ACE8EEB2B04A27500CB705A /* SearchLine.swift */,
 			);
 			path = UiComponents;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ACE8E612B0214A400CB705A /* ContentView.swift in Sources */,
+				1ACE8EEC2B04A27500CB705A /* SearchLine.swift in Sources */,
 				1ACE8E5F2B0214A400CB705A /* FirstStepsApp.swift in Sources */,
 				1ACE8EE52B03557500CB705A /* Localizable.swift in Sources */,
 				1ACE8EE82B0369AC00CB705A /* MainDoctorCard.swift in Sources */,

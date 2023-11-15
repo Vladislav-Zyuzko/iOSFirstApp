@@ -40,5 +40,6 @@ struct MainDoctorCard: View {
         .padding(20)
         .background(AppTheme.BgColors.primaryBlue)
         .cornerRadius(12)
+        .padding(.bottom, 20)
     }
 }

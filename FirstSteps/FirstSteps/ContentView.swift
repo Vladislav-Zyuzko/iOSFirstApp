@@ -13,6 +13,7 @@ struct ContentView: View {
             VStack{
                 WelcomeBlock()
                 MainDoctorCard()
+                SearchLine()
             }
             .padding(.horizontal, 24)
         }
