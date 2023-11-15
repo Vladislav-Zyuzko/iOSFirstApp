@@ -1,37 +1,37 @@
 import SwiftUI
 
-struct ProfileInfo: View {
+struct MainDoctorCard: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
             HStack {
-                Image("avatar1")
+                Image("Image-Avatar1".localized)
                     .resizable()
                     .frame(width: 48, height: 48)
                     .background(AppTheme.BgColors.primaryWhite)
                     .clipShape(Circle())
                 VStack(alignment: .leading) {
-                    Text("Dr. imran Syahir")
+                    Text("MainDoctor-Name".localized)
                         .font(AppTheme.Fonts.poppins_bold_16)
                         .foregroundColor(AppTheme.TextColors.primaryWhite)
                     Spacer(minLength: 8)
-                    Text("General Doctor")
+                    Text("MainDoctor-Status".localized)
                         .font(AppTheme.Fonts.poppins_regular_14)
                         .foregroundColor(AppTheme.TextColors.lightGray)
                 }
                 Spacer()
-                Image("right-arrow")
+                Image("Image-RightArrow".localized)
             }
             Divider()
             HStack(spacing: 30.5) {
                 HStack(spacing: 8) {
-                    Image("calendar")
-                    Text("Sunday, 12 June")
+                    Image("Image-Calendar".localized)
+                    Text("MainDoctor-Date".localized)
                         .font(AppTheme.Fonts.poppins_regular_12)
                         .foregroundColor(AppTheme.TextColors.primaryWhite)
                 }
                 HStack(spacing: 8) {
-                    Image("clock")
-                    Text("11:00 - 12:00 AM")
+                    Image("Image-Clock".localized)
+                    Text("MainDoctor-Time".localized)
                         .font(AppTheme.Fonts.poppins_regular_12)
                         .foregroundColor(AppTheme.TextColors.primaryWhite)
                 }

@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         ScrollView {
             VStack{
-                ProfileInfo()
+                MainDoctorCard()
             }
             .padding(.horizontal, 24)
         }

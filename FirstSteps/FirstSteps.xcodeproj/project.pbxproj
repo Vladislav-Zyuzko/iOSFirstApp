@@ -17,7 +17,7 @@
 		1ACE8EE12B0348DF00CB705A /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE8EE02B0348DF00CB705A /* Poppins-SemiBold.ttf */; };
 		1ACE8EE32B03544600CB705A /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EE22B03544600CB705A /* Localizable.strings */; };
 		1ACE8EE52B03557500CB705A /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EE42B03557500CB705A /* Localizable.swift */; };
-		1ACE8EE82B0369AC00CB705A /* ProfileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EE72B0369AC00CB705A /* ProfileInfo.swift */; };
+		1ACE8EE82B0369AC00CB705A /* MainDoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EE72B0369AC00CB705A /* MainDoctorCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,7 @@
 		1ACE8EE02B0348DF00CB705A /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../Poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		1ACE8EE22B03544600CB705A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		1ACE8EE42B03557500CB705A /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
-		1ACE8EE72B0369AC00CB705A /* ProfileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfo.swift; sourceTree = "<group>"; };
+		1ACE8EE72B0369AC00CB705A /* MainDoctorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDoctorCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +126,7 @@
 		1ACE8EE62B0367D600CB705A /* UiComponents */ = {
 			isa = PBXGroup;
 			children = (
-				1ACE8EE72B0369AC00CB705A /* ProfileInfo.swift */,
+				1ACE8EE72B0369AC00CB705A /* MainDoctorCard.swift */,
 			);
 			path = UiComponents;
 			sourceTree = "<group>";
@@ -267,7 +267,7 @@
 				1ACE8E612B0214A400CB705A /* ContentView.swift in Sources */,
 				1ACE8E5F2B0214A400CB705A /* FirstStepsApp.swift in Sources */,
 				1ACE8EE52B03557500CB705A /* Localizable.swift in Sources */,
-				1ACE8EE82B0369AC00CB705A /* ProfileInfo.swift in Sources */,
+				1ACE8EE82B0369AC00CB705A /* MainDoctorCard.swift in Sources */,
 				1ACE8EE32B03544600CB705A /* Localizable.strings in Sources */,
 				1ACE8EBF2B0224AA00CB705A /* AppThreme.swift in Sources */,
 			);
