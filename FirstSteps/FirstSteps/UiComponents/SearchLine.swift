@@ -36,5 +36,6 @@ struct SearchLine : View {
         .padding(16)
         .background(AppTheme.BgColors.lightWhite98)
         .cornerRadius(12)
+        .padding(.bottom, 24)
     }
 }
