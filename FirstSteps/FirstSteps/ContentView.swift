@@ -15,6 +15,7 @@ struct ContentView: View {
                 MainDoctorCard()
                 SearchLine()
                 CategoriesPanel()
+                DoctorCards()
             }
             .padding(.horizontal, 24)
         }

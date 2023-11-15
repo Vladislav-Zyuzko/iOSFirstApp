@@ -42,5 +42,6 @@ struct CategoriesPanel : View {
                 }
             }
         }
+        .padding(.bottom, 32)
     }
 }

@@ -22,6 +22,8 @@
 		1ACE8EEC2B04A27500CB705A /* SearchLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EEB2B04A27500CB705A /* SearchLine.swift */; };
 		1ACE8EEE2B04B31600CB705A /* CategoriesPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EED2B04B31600CB705A /* CategoriesPanel.swift */; };
 		1ACE8EF12B04B69B00CB705A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EF02B04B69B00CB705A /* Category.swift */; };
+		1ACE8EF32B04D01900CB705A /* DoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EF22B04D01900CB705A /* DoctorCard.swift */; };
+		1ACE8EF52B04D0E600CB705A /* DoctorCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EF42B04D0E600CB705A /* DoctorCards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		1ACE8EEB2B04A27500CB705A /* SearchLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLine.swift; sourceTree = "<group>"; };
 		1ACE8EED2B04B31600CB705A /* CategoriesPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesPanel.swift; sourceTree = "<group>"; };
 		1ACE8EF02B04B69B00CB705A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		1ACE8EF22B04D01900CB705A /* DoctorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCard.swift; sourceTree = "<group>"; };
+		1ACE8EF42B04D0E600CB705A /* DoctorCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,7 @@
 				1ACE8EE92B049E0B00CB705A /* WelcomeBlock.swift */,
 				1ACE8EEB2B04A27500CB705A /* SearchLine.swift */,
 				1ACE8EED2B04B31600CB705A /* CategoriesPanel.swift */,
+				1ACE8EF42B04D0E600CB705A /* DoctorCards.swift */,
 			);
 			path = UiComponents;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				1ACE8EF02B04B69B00CB705A /* Category.swift */,
+				1ACE8EF22B04D01900CB705A /* DoctorCard.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -284,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ACE8EF32B04D01900CB705A /* DoctorCard.swift in Sources */,
 				1ACE8E612B0214A400CB705A /* ContentView.swift in Sources */,
 				1ACE8EF12B04B69B00CB705A /* Category.swift in Sources */,
 				1ACE8EEC2B04A27500CB705A /* SearchLine.swift in Sources */,
@@ -293,6 +300,7 @@
 				1ACE8EE82B0369AC00CB705A /* MainDoctorCard.swift in Sources */,
 				1ACE8EE32B03544600CB705A /* Localizable.strings in Sources */,
 				1ACE8EBF2B0224AA00CB705A /* AppThreme.swift in Sources */,
+				1ACE8EF52B04D0E600CB705A /* DoctorCards.swift in Sources */,
 				1ACE8EEA2B049E0B00CB705A /* WelcomeBlock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
