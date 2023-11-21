@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomePage: View {
     var body: some View {
         ScrollView {
             VStack{
