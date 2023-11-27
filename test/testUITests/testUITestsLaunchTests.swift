@@ -1,13 +1,13 @@
 //
-//  FirstStepsUITestsLaunchTests.swift
-//  FirstStepsUITests
+//  testUITestsLaunchTests.swift
+//  testUITests
 //
 //  Created by Effective on 13.11.2023.
 //
 
 import XCTest
 
-final class FirstStepsUITestsLaunchTests: XCTestCase {
+final class testUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

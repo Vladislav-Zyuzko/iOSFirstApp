@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  FirstSteps
+//  test
 //
 //  Created by Effective on 13.11.2023.
 //
@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, Swift!")
+            Text("Hello, world!")
         }
         .padding()
     }

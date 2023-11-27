@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A1725FF2B0C6B1F00B85C5C /* TabbedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1725FE2B0C6B1F00B85C5C /* TabbedItems.swift */; };
+		1A1726022B0C6F5200B85C5C /* MainTabbedViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1726012B0C6F5200B85C5C /* MainTabbedViewExtension.swift */; };
+		1A1726042B0C711D00B85C5C /* MainTabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1726032B0C711D00B85C5C /* MainTabbedView.swift */; };
 		1ACE8E5F2B0214A400CB705A /* FirstStepsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8E5E2B0214A400CB705A /* FirstStepsApp.swift */; };
-		1ACE8E612B0214A400CB705A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8E602B0214A400CB705A /* ContentView.swift */; };
+		1ACE8E612B0214A400CB705A /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8E602B0214A400CB705A /* HomePage.swift */; };
 		1ACE8E632B0214A600CB705A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE8E622B0214A600CB705A /* Assets.xcassets */; };
-		1ACE8E662B0214A600CB705A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE8E652B0214A600CB705A /* Preview Assets.xcassets */; };
-		1ACE8E702B0214A700CB705A /* FirstStepsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8E6F2B0214A700CB705A /* FirstStepsTests.swift */; };
-		1ACE8E7A2B0214A700CB705A /* FirstStepsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8E792B0214A700CB705A /* FirstStepsUITests.swift */; };
-		1ACE8E7C2B0214A700CB705A /* FirstStepsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8E7B2B0214A700CB705A /* FirstStepsUITestsLaunchTests.swift */; };
+		1ACE8EBF2B0224AA00CB705A /* AppThreme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EBE2B0224AA00CB705A /* AppThreme.swift */; };
+		1ACE8EDB2B033E0300CB705A /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE8EDA2B033E0300CB705A /* Nunito-Bold.ttf */; };
+		1ACE8EDD2B033E0B00CB705A /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE8EDC2B033E0B00CB705A /* Poppins-Regular.ttf */; };
+		1ACE8EDF2B03462F00CB705A /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE8EDE2B03462F00CB705A /* Poppins-Bold.ttf */; };
+		1ACE8EE12B0348DF00CB705A /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE8EE02B0348DF00CB705A /* Poppins-SemiBold.ttf */; };
+		1ACE8EE32B03544600CB705A /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EE22B03544600CB705A /* Localizable.strings */; };
+		1ACE8EE52B03557500CB705A /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EE42B03557500CB705A /* Localizable.swift */; };
+		1ACE8EE82B0369AC00CB705A /* MainDoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EE72B0369AC00CB705A /* MainDoctorCard.swift */; };
+		1ACE8EEA2B049E0B00CB705A /* WelcomeBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EE92B049E0B00CB705A /* WelcomeBlock.swift */; };
+		1ACE8EEC2B04A27500CB705A /* SearchLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EEB2B04A27500CB705A /* SearchLine.swift */; };
+		1ACE8EEE2B04B31600CB705A /* CategoriesPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EED2B04B31600CB705A /* CategoriesPanel.swift */; };
+		1ACE8EF12B04B69B00CB705A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EF02B04B69B00CB705A /* Category.swift */; };
+		1ACE8EF32B04D01900CB705A /* DoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EF22B04D01900CB705A /* DoctorCard.swift */; };
+		1ACE8EF52B04D0E600CB705A /* DoctorCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EF42B04D0E600CB705A /* DoctorCards.swift */; };
+		1ACE9B062B145C8B00F62059 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE9B042B145C8B00F62059 /* Nunito-Bold.ttf */; };
+		1ACE9B072B145C8B00F62059 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE9B052B145C8B00F62059 /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +49,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A1725FE2B0C6B1F00B85C5C /* TabbedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedItems.swift; sourceTree = "<group>"; };
+		1A1726012B0C6F5200B85C5C /* MainTabbedViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbedViewExtension.swift; sourceTree = "<group>"; };
+		1A1726032B0C711D00B85C5C /* MainTabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbedView.swift; sourceTree = "<group>"; };
 		1ACE8E5B2B0214A400CB705A /* FirstSteps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSteps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ACE8E5E2B0214A400CB705A /* FirstStepsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStepsApp.swift; sourceTree = "<group>"; };
-		1ACE8E602B0214A400CB705A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1ACE8E602B0214A400CB705A /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		1ACE8E622B0214A600CB705A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1ACE8E652B0214A600CB705A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1ACE8E6B2B0214A700CB705A /* FirstStepsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstStepsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ACE8E6F2B0214A700CB705A /* FirstStepsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStepsTests.swift; sourceTree = "<group>"; };
 		1ACE8E752B0214A700CB705A /* FirstStepsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstStepsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ACE8E792B0214A700CB705A /* FirstStepsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStepsUITests.swift; sourceTree = "<group>"; };
-		1ACE8E7B2B0214A700CB705A /* FirstStepsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStepsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1ACE8EBE2B0224AA00CB705A /* AppThreme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppThreme.swift; sourceTree = "<group>"; };
+		1ACE8EDA2B033E0300CB705A /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		1ACE8EDC2B033E0B00CB705A /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		1ACE8EDE2B03462F00CB705A /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		1ACE8EE02B0348DF00CB705A /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		1ACE8EE22B03544600CB705A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		1ACE8EE42B03557500CB705A /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		1ACE8EE72B0369AC00CB705A /* MainDoctorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDoctorCard.swift; sourceTree = "<group>"; };
+		1ACE8EE92B049E0B00CB705A /* WelcomeBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBlock.swift; sourceTree = "<group>"; };
+		1ACE8EEB2B04A27500CB705A /* SearchLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLine.swift; sourceTree = "<group>"; };
+		1ACE8EED2B04B31600CB705A /* CategoriesPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesPanel.swift; sourceTree = "<group>"; };
+		1ACE8EF02B04B69B00CB705A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		1ACE8EF22B04D01900CB705A /* DoctorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCard.swift; sourceTree = "<group>"; };
+		1ACE8EF42B04D0E600CB705A /* DoctorCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCards.swift; sourceTree = "<group>"; };
+		1ACE9B042B145C8B00F62059 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		1ACE9B052B145C8B00F62059 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +101,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A1726002B0C6EED00B85C5C /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1A1726012B0C6F5200B85C5C /* MainTabbedViewExtension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
 		1ACE8E522B0214A400CB705A = {
 			isa = PBXGroup;
 			children = (
 				1ACE8E5D2B0214A400CB705A /* FirstSteps */,
-				1ACE8E6E2B0214A700CB705A /* FirstStepsTests */,
-				1ACE8E782B0214A700CB705A /* FirstStepsUITests */,
 				1ACE8E5C2B0214A400CB705A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,37 +130,62 @@
 		1ACE8E5D2B0214A400CB705A /* FirstSteps */ = {
 			isa = PBXGroup;
 			children = (
+				1A1726002B0C6EED00B85C5C /* extensions */,
+				1ACE8EEF2B04B64600CB705A /* Models */,
+				1ACE8EE62B0367D600CB705A /* UiComponents */,
+				1ACE8ED92B033DE900CB705A /* project_fonts */,
 				1ACE8E5E2B0214A400CB705A /* FirstStepsApp.swift */,
-				1ACE8E602B0214A400CB705A /* ContentView.swift */,
+				1ACE8E602B0214A400CB705A /* HomePage.swift */,
 				1ACE8E622B0214A600CB705A /* Assets.xcassets */,
-				1ACE8E642B0214A600CB705A /* Preview Content */,
+				1ACE8EBE2B0224AA00CB705A /* AppThreme.swift */,
+				1ACE8EE22B03544600CB705A /* Localizable.strings */,
+				1ACE8EE42B03557500CB705A /* Localizable.swift */,
 			);
 			path = FirstSteps;
 			sourceTree = "<group>";
 		};
-		1ACE8E642B0214A600CB705A /* Preview Content */ = {
+		1ACE8ED92B033DE900CB705A /* project_fonts */ = {
 			isa = PBXGroup;
 			children = (
-				1ACE8E652B0214A600CB705A /* Preview Assets.xcassets */,
+				1ACE8EDE2B03462F00CB705A /* Poppins-Bold.ttf */,
+				1ACE8EDC2B033E0B00CB705A /* Poppins-Regular.ttf */,
+				1ACE8EDA2B033E0300CB705A /* Nunito-Bold.ttf */,
+				1ACE8EE02B0348DF00CB705A /* Poppins-SemiBold.ttf */,
+				1ACE9B032B145C8B00F62059 /* project_fonts */,
 			);
-			path = "Preview Content";
+			path = project_fonts;
 			sourceTree = "<group>";
 		};
-		1ACE8E6E2B0214A700CB705A /* FirstStepsTests */ = {
+		1ACE8EE62B0367D600CB705A /* UiComponents */ = {
 			isa = PBXGroup;
 			children = (
-				1ACE8E6F2B0214A700CB705A /* FirstStepsTests.swift */,
+				1ACE8EE72B0369AC00CB705A /* MainDoctorCard.swift */,
+				1ACE8EE92B049E0B00CB705A /* WelcomeBlock.swift */,
+				1ACE8EEB2B04A27500CB705A /* SearchLine.swift */,
+				1ACE8EED2B04B31600CB705A /* CategoriesPanel.swift */,
+				1ACE8EF42B04D0E600CB705A /* DoctorCards.swift */,
+				1A1726032B0C711D00B85C5C /* MainTabbedView.swift */,
 			);
-			path = FirstStepsTests;
+			path = UiComponents;
 			sourceTree = "<group>";
 		};
-		1ACE8E782B0214A700CB705A /* FirstStepsUITests */ = {
+		1ACE8EEF2B04B64600CB705A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1ACE8E792B0214A700CB705A /* FirstStepsUITests.swift */,
-				1ACE8E7B2B0214A700CB705A /* FirstStepsUITestsLaunchTests.swift */,
+				1ACE8EF02B04B69B00CB705A /* Category.swift */,
+				1ACE8EF22B04D01900CB705A /* DoctorCard.swift */,
+				1A1725FE2B0C6B1F00B85C5C /* TabbedItems.swift */,
 			);
-			path = FirstStepsUITests;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1ACE9B032B145C8B00F62059 /* project_fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1ACE9B042B145C8B00F62059 /* Nunito-Bold.ttf */,
+				1ACE9B052B145C8B00F62059 /* Poppins-Regular.ttf */,
+			);
+			name = project_fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +292,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ACE8E662B0214A600CB705A /* Preview Assets.xcassets in Resources */,
+				1ACE8EE12B0348DF00CB705A /* Poppins-SemiBold.ttf in Resources */,
+				1ACE8EDD2B033E0B00CB705A /* Poppins-Regular.ttf in Resources */,
+				1ACE9B072B145C8B00F62059 /* Poppins-Regular.ttf in Resources */,
+				1ACE8EDB2B033E0300CB705A /* Nunito-Bold.ttf in Resources */,
 				1ACE8E632B0214A600CB705A /* Assets.xcassets in Resources */,
+				1ACE9B062B145C8B00F62059 /* Nunito-Bold.ttf in Resources */,
+				1ACE8EDF2B03462F00CB705A /* Poppins-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +323,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ACE8E612B0214A400CB705A /* ContentView.swift in Sources */,
+				1ACE8EF32B04D01900CB705A /* DoctorCard.swift in Sources */,
+				1ACE8E612B0214A400CB705A /* HomePage.swift in Sources */,
+				1ACE8EF12B04B69B00CB705A /* Category.swift in Sources */,
+				1ACE8EEC2B04A27500CB705A /* SearchLine.swift in Sources */,
 				1ACE8E5F2B0214A400CB705A /* FirstStepsApp.swift in Sources */,
+				1ACE8EE52B03557500CB705A /* Localizable.swift in Sources */,
+				1A1725FF2B0C6B1F00B85C5C /* TabbedItems.swift in Sources */,
+				1ACE8EEE2B04B31600CB705A /* CategoriesPanel.swift in Sources */,
+				1ACE8EE82B0369AC00CB705A /* MainDoctorCard.swift in Sources */,
+				1ACE8EE32B03544600CB705A /* Localizable.strings in Sources */,
+				1ACE8EBF2B0224AA00CB705A /* AppThreme.swift in Sources */,
+				1A1726042B0C711D00B85C5C /* MainTabbedView.swift in Sources */,
+				1A1726022B0C6F5200B85C5C /* MainTabbedViewExtension.swift in Sources */,
+				1ACE8EF52B04D0E600CB705A /* DoctorCards.swift in Sources */,
+				1ACE8EEA2B049E0B00CB705A /* WelcomeBlock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +345,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ACE8E702B0214A700CB705A /* FirstStepsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +352,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ACE8E7A2B0214A700CB705A /* FirstStepsUITests.swift in Sources */,
-				1ACE8E7C2B0214A700CB705A /* FirstStepsUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +495,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FirstSteps/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FirstSteps/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +524,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FirstSteps/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FirstSteps/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

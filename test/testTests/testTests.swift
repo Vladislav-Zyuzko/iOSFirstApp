@@ -1,14 +1,14 @@
 //
-//  FirstStepsTests.swift
-//  FirstStepsTests
+//  testTests.swift
+//  testTests
 //
 //  Created by Effective on 13.11.2023.
 //
 
 import XCTest
-@testable import FirstSteps
+@testable import test
 
-final class FirstStepsTests: XCTestCase {
+final class testTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
