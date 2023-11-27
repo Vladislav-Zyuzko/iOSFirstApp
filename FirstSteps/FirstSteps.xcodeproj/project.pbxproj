@@ -27,6 +27,8 @@
 		1ACE8EF12B04B69B00CB705A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EF02B04B69B00CB705A /* Category.swift */; };
 		1ACE8EF32B04D01900CB705A /* DoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EF22B04D01900CB705A /* DoctorCard.swift */; };
 		1ACE8EF52B04D0E600CB705A /* DoctorCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8EF42B04D0E600CB705A /* DoctorCards.swift */; };
+		1ACE9B062B145C8B00F62059 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE9B042B145C8B00F62059 /* Nunito-Bold.ttf */; };
+		1ACE9B072B145C8B00F62059 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE9B052B145C8B00F62059 /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +61,8 @@
 		1ACE8EBE2B0224AA00CB705A /* AppThreme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppThreme.swift; sourceTree = "<group>"; };
 		1ACE8EDA2B033E0300CB705A /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
 		1ACE8EDC2B033E0B00CB705A /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
-		1ACE8EDE2B03462F00CB705A /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
-		1ACE8EE02B0348DF00CB705A /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../Poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		1ACE8EDE2B03462F00CB705A /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		1ACE8EE02B0348DF00CB705A /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		1ACE8EE22B03544600CB705A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		1ACE8EE42B03557500CB705A /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 		1ACE8EE72B0369AC00CB705A /* MainDoctorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDoctorCard.swift; sourceTree = "<group>"; };
@@ -70,6 +72,8 @@
 		1ACE8EF02B04B69B00CB705A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		1ACE8EF22B04D01900CB705A /* DoctorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCard.swift; sourceTree = "<group>"; };
 		1ACE8EF42B04D0E600CB705A /* DoctorCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCards.swift; sourceTree = "<group>"; };
+		1ACE9B042B145C8B00F62059 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		1ACE9B052B145C8B00F62059 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,7 @@
 				1ACE8EDC2B033E0B00CB705A /* Poppins-Regular.ttf */,
 				1ACE8EDA2B033E0300CB705A /* Nunito-Bold.ttf */,
 				1ACE8EE02B0348DF00CB705A /* Poppins-SemiBold.ttf */,
+				1ACE9B032B145C8B00F62059 /* project_fonts */,
 			);
 			path = project_fonts;
 			sourceTree = "<group>";
@@ -172,6 +177,15 @@
 				1A1725FE2B0C6B1F00B85C5C /* TabbedItems.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		1ACE9B032B145C8B00F62059 /* project_fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1ACE9B042B145C8B00F62059 /* Nunito-Bold.ttf */,
+				1ACE9B052B145C8B00F62059 /* Poppins-Regular.ttf */,
+			);
+			name = project_fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,8 +294,10 @@
 			files = (
 				1ACE8EE12B0348DF00CB705A /* Poppins-SemiBold.ttf in Resources */,
 				1ACE8EDD2B033E0B00CB705A /* Poppins-Regular.ttf in Resources */,
+				1ACE9B072B145C8B00F62059 /* Poppins-Regular.ttf in Resources */,
 				1ACE8EDB2B033E0300CB705A /* Nunito-Bold.ttf in Resources */,
 				1ACE8E632B0214A600CB705A /* Assets.xcassets in Resources */,
+				1ACE9B062B145C8B00F62059 /* Nunito-Bold.ttf in Resources */,
 				1ACE8EDF2B03462F00CB705A /* Poppins-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
